@@ -45,3 +45,7 @@ color: rgb(75, 74, 74);
     align-items: center;
     margin: 10px;
 }
+
+.justify-center {
+    justify-content: center;
+}
