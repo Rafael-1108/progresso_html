@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+Font-family: Federant, Arial, Helvetica, sans-serif;
+padding: 20px;
+} 
+
+h1 {
+Font-size: 2.5em;
+}
+
+section {
+margin-bottom: 40px;
+}
+
+h2 {
+margin-bottom: 15px;
+color: rgb(75, 74, 74);
+}
+
+.flex-container {
+    margin: 0 auto 20px;
+    width: 90%;
+    height: 200px;
+    background-color: rgb(137, 253, 143);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(125, 153, 0);
+    border: 2px solid rgb(3, 3, 3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
