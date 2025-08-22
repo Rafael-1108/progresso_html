@@ -53,5 +53,5 @@ color: rgb(75, 74, 74);
 }
 
 .justify-end {
-    justify-content: end;
+    justify-content: flex-end;
 }
