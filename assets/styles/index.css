@@ -44,8 +44,14 @@ color: rgb(75, 74, 74);
     justify-content: center;
     align-items: center;
     margin: 10px;
+    font-size: 50px;
+    border-radius: 8px;
 }
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
 }
