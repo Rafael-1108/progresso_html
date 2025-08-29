@@ -1,0 +1,10 @@
+.retânguloCentro{
+    margin: 0 auto 20px;
+    width: 30%;
+    height: 150px;
+    background-color: rgb(74, 74, 253);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
