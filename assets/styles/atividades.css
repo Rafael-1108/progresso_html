@@ -1,10 +1,26 @@
-.retânguloCentro{
-    margin: 0 auto 20px;
-    width: 30%;
-    height: 150px;
-    background-color: rgb(74, 74, 253);
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+.conteiner {
     display: flex;
-    justify-content: flex-start;
+    height: 500px;
+    justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    gap: 20px;
+}
+
+.quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.roxo {
+    background-color:purple;
 }
