@@ -67,3 +67,11 @@ color: rgb(75, 74, 74);
 .justify-end {
     justify-content: flex-end;
 }
+
+.space-between {
+    justify-content: space-between
+}
+
+.space-around {
+    justify-content: space-around;
+}
