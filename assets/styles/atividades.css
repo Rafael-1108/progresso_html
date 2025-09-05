@@ -4,7 +4,20 @@
     box-sizing: 0px;
 }
 
-.conteiner {
+.retangulo {
+    width: 10%;
+    height: 200px;
+    background-color: rgb(63, 63, 255);
+    margin: 0 auto 20px;
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.container {
     display: flex;
     height: 500px;
     justify-content: center;
@@ -23,4 +36,27 @@
 
 .roxo {
     background-color:purple;
+}
+
+.semaforo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap: 30px;
+}
+
+.sinal {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.amarelo {
+    background-color: yellow;
 }

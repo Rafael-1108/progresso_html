@@ -6,6 +6,18 @@
     box-sizing: border-box;
 }
 
+.navegacao {
+    color: rgb(0, 150, 150);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 20px;
+    border: 2px solid rgb(0, 150, 150);
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.5s ease
+}
+
 body {
 Font-family: Federant, Arial, Helvetica, sans-serif;
 padding: 20px;
