@@ -43,8 +43,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 450px;
     gap: 30px;
+    background-color: rgb(68, 68, 68);
+    width: 200px;
+    border-radius: 15px;
+    margin: 0 auto 30px;
 }
 
 .sinal {
@@ -53,10 +57,17 @@
     border-radius: 50%;
 }
 
+.green {
+    background-color: green;
+    box-shadow: 0 0 20px green;
+}
+
 .vermelho {
     background-color: red;
+    box-shadow: 0 0 20px #ff0000;
 }
 
 .amarelo {
     background-color: yellow;
+    box-shadow: 0 0 20px yellow;
 }
